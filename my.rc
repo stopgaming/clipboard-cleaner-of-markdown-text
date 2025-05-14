@@ -1,0 +1,7 @@
+#define id 101
+#define IDI_MAIN_ICON 102
+
+#ifdef RC_INVOKED
+id ICON "my.ico"
+IDI_MAIN_ICON ICON "my.ico"
+#endif
